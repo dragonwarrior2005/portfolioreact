@@ -1,0 +1,23 @@
+#home {
+    margin: 100px 0;
+}
+
+.picture img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.introduction {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.intro h1{
+    font-size: 60px;
+}
+.intro p {
+    font-size: 30px;
+}
+.intro span {
+    color: tomato;
+}

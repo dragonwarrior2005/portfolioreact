@@ -1,0 +1,16 @@
+.navbar-brand {
+    color: white !important;
+    font-size: 40px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.nav-link {
+    color: grey !important;
+}
+.navbar {
+    border-bottom: 1px grey solid;
+}
+.navbar-toggler {
+    border-color: white !important;
+}
+

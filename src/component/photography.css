@@ -1,0 +1,52 @@
+#photography {
+    color: white;
+}
+.photographyheading {
+    display: flex;
+    justify-content: end;
+}
+.photographyheading h2 {
+    font-size: 60px;
+    position: relative;
+    display: inline-block;
+    margin: 30px 0;
+}
+.photographyheading h2::after {
+    position: absolute;
+    content: '';
+    background-color: tomato;
+    height: 5px;
+    width: 100%;
+    bottom: -10px;
+    left: 0;
+
+}
+.photographydescription p {
+    font-size: 30px;
+}
+.photographydescription span {
+    color: tomato;
+}
+.clicks {
+    width: 30%;
+}
+.clicks img {
+    width: 100%;
+}
+.clickbox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+.clickbox .clicks {
+    transition: 0.5s;
+    filter: brightness(0);
+    cursor: pointer;
+}
+.clickbox .clicks:hover {
+    filter: brightness(1);
+    transform: translateZ(200px);
+}
