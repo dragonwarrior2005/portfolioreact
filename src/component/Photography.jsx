@@ -2,7 +2,6 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import './photography.css'
 import AOS from "aos";
-import Slider from 'react-slick';
 
 
 export const Photography = () => {
@@ -23,9 +22,9 @@ export const Photography = () => {
                 </p>
             </div>
             <div className="clickbox">
-                <div className="clicks"><img src="https://i.postimg.cc/vBG2W8Fb/click1.jpg" alt="" /></div>
-                <div className="clicks"><img src="https://i.postimg.cc/vBG2W8Fb/click1.jpg" alt="" /></div>
-                <div className="clicks"><img src="https://i.postimg.cc/vBG2W8Fb/click1.jpg" alt="" /></div>
+                <div className="clicks"><a href="https://www.instagram.com/taycliks/" target='blank'><img src="https://i.postimg.cc/vBG2W8Fb/click1.jpg" alt="" /></a></div>
+                <div className="clicks"><a href="https://www.instagram.com/taycliks/" target='blank'><img src="https://i.postimg.cc/3R5JXrHS/cllick2.jpg" alt="" /></a></div>
+                <div className="clicks"><a href="https://www.instagram.com/taycliks/" target='blank'><img src="https://i.postimg.cc/LXp2qyzG/click3.jpg" alt="" /></a></div>
 
             </div>
                 

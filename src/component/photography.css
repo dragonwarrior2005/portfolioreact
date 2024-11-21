@@ -48,5 +48,14 @@
 }
 .clickbox .clicks:hover {
     filter: brightness(1);
-    transform: translateZ(200px);
+    transform: translateZ(100px);
+}
+.clickbox .clicks:hover + *{
+    filter: brightness(0.6);
+    transform: translateZ(50px) rotateY(10deg);
+
+}
+.clickbox .clicks:has(+ *:hover){
+    filter: brightness(0.6);
+    transform: translateZ(50px) rotateY(-10deg);
 }

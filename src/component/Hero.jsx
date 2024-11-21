@@ -26,12 +26,12 @@ export const Hero = () => {
         <Container>
             <Row>
                 <Col lg={6} className='introduction' >
-                <div className="intro" data-aos="fade-up-right">
+                <div className="intro" data-aos="fade-right" data-aos-duration="1500">
                     <h1>Hi, I am <span>Taysir</span></h1>
                     <p>A speedcuber, scenic photographer and future front end developer</p>
                 </div>
                 </Col>
-                <Col lg={6} data-aos="fade-down-left">
+                <Col lg={6} data-aos="flip-left" data-aos-duration="1500">
                 
                 <Slider {...settings}> 
                 <div className="picture" >
