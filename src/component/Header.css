@@ -3,9 +3,18 @@
     font-size: 40px !important;
     margin: 0 !important;
     padding: 0 !important;
+    transition: .25s !important;
+}
+.navbar-brand:hover {
+    color: tomato !important;
 }
 .nav-link {
     color: grey !important;
+    transition: 0.25s !important;
+}
+.nav-link:hover {
+    color: white !important;
+    font-size: 20px !important;
 }
 .navbar {
     border-bottom: 1px grey solid;
